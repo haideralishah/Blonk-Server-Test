@@ -6,7 +6,7 @@ const mongoose = require('./Config/keys')
 var db = mongoose.connection;
 
 
-app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.json());
 
 
 // All Port Access
